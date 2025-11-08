@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Audio List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: auto;
+      width: 80%;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    }
+
+    th {
+      background-color: #007BFF;
+      color: white;
+      padding: 10px;
+    }
+
+    td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    img {
+      width: 80px;
+      border-radius: 6px;
+    }
+
+    a {
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    audio {
+      width: 250px;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Favorite Songs</h1>
+  <table>
+    <tr>
+      <th>Cover</th>
+      <th>Title</th>
+      <th>Artist</th>
+      <th>Year</th>
+      <th>Play</th>
+      <th>Download</th>
+    </tr>
+
+    <tr>
+      <td><img src="https://i.imgur.com/ihpZFKB.jpg" alt="Imagine cover"></td>
+      <td>Imagine</td>
+      <td>John Lennon</td>
+      <td>1971</td>
+      <td><audio controls>
+        <source src="AudioFiles/imagine.mp3" type="audio/mp3">
+      </audio></td>
+      <td><a href="AudioFiles/imagine.mp3" download>Download</a></td>
+    </tr>
+
+    <tr>
+      <td><img src="https://i.imgur.com/5fHTjOq.jpg" alt="Bohemian Rhapsody cover"></td>
+      <td>Bohemian Rhapsody</td>
+      <td>Queen</td>
+      <td>1975</td>
+      <td><audio controls>
+        <source src="AudioFiles/bohemian.mp3" type="audio/mp3">
+      </audio></td>
+      <td><a href="AudioFiles/bohemian.mp3" download>Download</a></td>
+    </tr>
+
+  </table>
+</body>
+</html>
