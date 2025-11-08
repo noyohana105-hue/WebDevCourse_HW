@@ -6,6 +6,14 @@
   <link id="skinStyle" rel="stylesheet" href="SKINS/skin1.css">
 </head>
 <body>
+    <nav style="text-align:center; margin-top:15px; font-size:18px;">
+  <a href="playlist.html">Playlist</a> |
+  <a href="contact.html">Contact</a> |
+  <a href="audioList.html">Audio List</a> |
+  <a href="summary.html">Summary</a>
+</nav>
+<hr>
+
   <h1>My Chill Playlist 🎵</h1>
 
   <!-- כפתור להחלפת עיצוב -->
@@ -34,7 +42,9 @@
           Your browser does not support the audio element.
         </audio>
       </td>
-      <td><a href="AudioFiles/perfect.mp3" download>Download</a></td>
+      <td>
+        <a href="AudioFiles/perfect.mp3" download="Perfect - Ed Sheeran.mp3">Download</a>
+      </td>
     </tr>
 
     <!-- שיר 2 -->
@@ -46,13 +56,16 @@
       <td>
         <audio controls>
           <source src="AudioFiles/demons.mp3" type="audio/mp3">
+          Your browser does not support the audio element.
         </audio>
       </td>
-      <td><a href="AudioFiles/demons.mp3" download>Download</a></td>
+      <td>
+        <a href="AudioFiles/demons.mp3" download="Demons - Imagine Dragons.mp3">Download</a>
+      </td>
     </tr>
   </table>
 
-  <!-- סקריפט להחלפת הסקין -->
+  <!-- סקריפט להחלפת סקינים -->
   <script>
     let skin = 1;
     function changeSkin() {
