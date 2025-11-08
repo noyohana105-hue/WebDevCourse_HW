@@ -38,8 +38,17 @@ img {
     text-decoration: underline;
 }
 
-.MYCLASS {
-    color: red;
-    font-size: 24px;
-    margin-top: 20px;
+ 
+.header-blue {
+  background-color: #007BFF;
+  color: white;             
 }
+
+
+.highlight-row {
+  background-color: #cce5ff; 
+  color: #003366;            
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
