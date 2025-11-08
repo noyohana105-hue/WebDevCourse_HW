@@ -1,0 +1,44 @@
+/* עיצוב חדש לטופס יצירת קשר */
+.contact-table {
+  border-collapse: collapse;
+  margin: 30px auto;
+  width: 400px;
+  background-color: #f9fbff;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-table th {
+  background-color: #007BFF;
+  color: white;
+  font-size: 22px;
+  padding: 12px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.contact-table td {
+  padding: 10px;
+  border: none;
+}
+
+.contact-table input,
+.contact-table textarea {
+  width: 95%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
